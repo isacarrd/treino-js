@@ -6,4 +6,4 @@ O objetivo deste repositório é pegar alguns exercícios que já foram resolvid
 - Adicionar interatividade com o usuário através de JavaScript;
 - Adicionar estilização com CSS.
 
-⭐ São projetos simples que desejo compartilhar para mostrar minha evolução profissional e pessoal e, eventualmente, ajudar a quem quer aprender também!
+⭐ São projetos simples que desejo compartilhar para mostrar minha evolução profissional e pessoal!
