@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Emprestimo</title>
+</head>
+<body>
+  <!-- Uma financeira usa o seguinte critério para conceder empréstimos: o valor total do empréstimo deve ser até dez vezes o valor da renda mensal do solicitante e o valor da prestação deve ser no máximo 30% da renda mensal do solicitante. Escreva um programa que leia a renda mensal de um solicitante, o valor total do empréstimo solicitado e o número de prestações que o solicitante deseja pagar e informe se o empréstimo pode ou não ser concedido. -->
+  <main>
+    <div class="entrada">
+      <h1>Solicite seu empréstimo hoje!</h1>
+      <form action="">
+        <input type="number" name="rendaMensal" id="rendaMensal" placeholder="Insira sua renda mensal">
+        <input type="number" name="usuEmp" id="usuEmp" placeholder="Valor do empréstimo">
+        <input type="number" name="usuParc" id="usuParc" placeholder="Valor das prestações">
+        <button type="button" id="envio" onclick="calcularEmprestimo()">Confirmar</button>
+      </form>
+    </div>
+    <div class="resultado">
+      <span id="saida"></span>
+    </div>
+  </main>
+  <script src="emprestimo.js"></script>
+</body>
+</html>
